@@ -172,7 +172,7 @@ footer{padding:40px 20px 50px;color:var(--mut);font-size:15px}
 </main>
 <footer>CBlocker</footer>
 <script>
-var EMAIL="REEMPLAZA@tu-dominio.com";
+var EMAIL="cblocker.contact@gmail.com";
 document.querySelectorAll("[data-mail]").forEach(function(a){a.href="mailto:"+EMAIL+(a.dataset.sub?"?subject="+encodeURIComponent(a.dataset.sub):"");if(!a.textContent)a.textContent=EMAIL});
 function setLang(c){document.documentElement.lang=c;document.querySelectorAll(".l").forEach(function(d){d.hidden=d.dataset.l!==c});document.querySelectorAll("[data-set]").forEach(function(b){b.setAttribute("aria-pressed",b.dataset.set===c)})}
 document.querySelectorAll("[data-set]").forEach(function(b){b.addEventListener("click",function(){setLang(b.dataset.set)})});
