@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>CBlocker</title>
 <meta name="description" content="CBlocker: a browser extension that blocks sites outside your schedule, with commitment.">
-<!-- NOTE: 1) Replace the email in the EMAIL constant of the script at the bottom. 2) The legal texts are a draft: have a professional review them before launch. -->
+<!-- NOTE: The legal texts are a draft: have a professional review them before launch. -->
 <style>
 :root{--bg:#F2F5F5;--ink:#13232B;--mut:#4A5B63;--ac:#0E6B6E;--ln:#CAD6D8;--cd:#fff}
 @media(prefers-color-scheme:dark){:root{--bg:#101A1F;--ink:#E6EEF0;--mut:#9DB0B6;--ac:#5CC4C6;--ln:#29393F;--cd:#16242A}}
@@ -42,7 +42,7 @@ footer{padding:40px 20px 50px;color:var(--mut);font-size:15px}
 
 <h1>Keep the rules you set when you were calm.</h1>
 <p class="lead">CBlocker is a browser extension that blocks the pages or categories you choose outside the schedule you define. If you want to break your own rule, there is first a wait and a phrase of your own that you must retype.</p>
-<a class="btn" data-mail data-sub="CBlocker waitlist">Join the waitlist</a>
+<a class="btn" href="mailto:cblocker.contact@gmail.com?subject=CBlocker%20waitlist">Join the waitlist</a>
 <p class="note">Coming soon for Chrome. Write to us and we will let you know when it is available.</p>
 <div class="mock" aria-hidden="true"><span class="note">Example of the unlock screen</span><b>02:41</b><div>This page is blocked until 9:00 PM.</div><div class="f">Type your phrase to continue</div><div class="k"><span>Keep blocked</span><span>Unlock</span></div></div>
 
@@ -78,7 +78,7 @@ footer{padding:40px 20px 50px;color:var(--mut);font-size:15px}
 
 <h2>Policies</h2>
 <details><summary>Refunds</summary><ul>
-<li>License: you can request a refund within 15 days of purchase by writing to <a data-mail></a>.</li>
+<li>License: you can request a refund within 15 days of purchase by writing to <a href="mailto:cblocker.contact@gmail.com">cblocker.contact@gmail.com</a>.</li>
 <li>We may refund a payment when the law or our payment provider requires it.</li>
 <li>Payments are processed by an outside provider acting as merchant of record.</li></ul></details>
 <details><summary>Privacy</summary><ul>
@@ -87,20 +87,16 @@ footer{padding:40px 20px 50px;color:var(--mut);font-size:15px}
 <li>With the payment provider: the payment and billing details you give them. We never see your card.</li>
 <li>Waitlist: your email, only to tell you about the launch.</li>
 <li>What is stored on your device is not encrypted: anyone with access to your browser profile could see it.</li>
-<li>We do not sell data. To ask us to delete your information, write to <a data-mail></a>.</li></ul></details>
+<li>We do not sell data. To ask us to delete your information, write to <a href="mailto:cblocker.contact@gmail.com">cblocker.contact@gmail.com</a>.</li></ul></details>
 <details><summary>Terms</summary><ul>
 <li>The license is personal and non-transferable.</li>
 <li>CBlocker is provided as is: it can fail or be bypassed, and we do not guarantee it will prevent any behavior or promise any results.</li>
 <li>It is not a medical or psychological service.</li>
 <li>We may update the product and these terms; we will tell you if the changes are significant.</li>
 <li>To the extent the law allows, our liability is limited to what you paid for the license.</li>
-<li>Contact: <a data-mail></a>.</li></ul></details>
+<li>Contact: <a href="mailto:cblocker.contact@gmail.com">cblocker.contact@gmail.com</a>.</li></ul></details>
 
 </main>
-<footer>CBlocker</footer>
-<script>
-var EMAIL="cblocker.contact@gmail.com";
-document.querySelectorAll("[data-mail]").forEach(function(a){a.href="mailto:"+EMAIL+(a.dataset.sub?"?subject="+encodeURIComponent(a.dataset.sub):"");if(!a.textContent)a.textContent=EMAIL});
-</script>
+<footer>CBlocker &middot; Contact: <a href="mailto:cblocker.contact@gmail.com">cblocker.contact@gmail.com</a></footer>
 </body>
 </html>
