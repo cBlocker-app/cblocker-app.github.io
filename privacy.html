@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>CBlocker privacy policy</title>
+<style>
+:root{--bg:#F2F5F5;--ink:#13232B;--mut:#4A5B63;--ac:#0E6B6E;--ln:#CAD6D8}
+@media(prefers-color-scheme:dark){:root{--bg:#101A1F;--ink:#E6EEF0;--mut:#9DB0B6;--ac:#5CC4C6;--ln:#29393F}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif}
+main{max-width:700px;margin:0 auto;padding:28px 20px 60px}
+a{color:var(--ac)}
+h1{font:700 clamp(28px,5vw,38px)/1.15 Georgia,serif;margin:20px 0 6px}
+h2{font:700 22px/1.3 Georgia,serif;margin:34px 0 8px}
+.m{color:var(--mut)}
+li{margin:7px 0}
+</style>
+</head>
+<body>
+<main>
+<p><a href="./">&larr; CBlocker</a></p>
+<h1>Privacy policy</h1>
+<p class="m">Last updated: November 13, 2026</p>
+<p>CBlocker is a browser extension that blocks websites you choose outside a schedule you set. This page explains what data it handles. In short: the sites you visit are never collected, CBlocker has no server of its own, and the only thing that leaves your computer is your license key.</p>
+
+<h2>What stays on your computer</h2>
+<ul>
+<li>Your settings: categories you block, sites you add by hand, schedules, the wait time, commitment mode dates and the status of your daily unlock.</li>
+<li>Your personal text, your unlock phrase and your optional personal image.</li>
+<li>Your license key and its status.</li>
+</ul>
+<p>All of this is stored in your browser's local extension storage. It is not sent to us or to anyone else. It is not encrypted, so anyone with access to your browser profile could read it. Uninstalling the extension deletes it.</p>
+
+<h2>The sites you visit</h2>
+<p>To block a site, the extension asks the browser to compare the address of each page you open with your block lists, which are bundled inside the extension. That comparison happens inside your browser. CBlocker does not record, store or transmit the sites you visit, and it does not read the content of web pages.</p>
+
+<h2>What is sent over the internet</h2>
+<p>When you activate your license and about once a week afterwards, the extension sends your <b>license key</b> and a <b>device label</b> (for example &ldquo;Chrome on Windows #ab12&rdquo;) to the license service of our payment provider, Lemon Squeezy, to confirm the license is valid and to count the computers using it. As with any internet request, Lemon Squeezy also receives your IP address. Their privacy policy applies to that data. Nothing else is sent.</p>
+
+<h2>Payments</h2>
+<p>Purchases are processed by Lemon Squeezy, which acts as the merchant of record. We never see your card details. The charge on your statement shows the provider&rsquo;s name and our store identifier, without describing the product.</p>
+
+<h2>What we do not do</h2>
+<ul>
+<li>No analytics, tracking or advertising.</li>
+<li>We do not sell or share data, and we do not use remote code.</li>
+<li>CBlocker has no accounts and no server that stores your information.</li>
+</ul>
+
+<h2>Permissions, in plain words</h2>
+<ul>
+<li><b>Block and redirect pages</b> (declarativeNetRequest): to stop the pages you chose from loading.</li>
+<li><b>Storage</b>: to keep your settings on your computer.</li>
+<li><b>Alarms</b>: to notice, once a minute, when a schedule opens or closes, and to re-check your license weekly.</li>
+<li><b>Access to api.lemonsqueezy.com</b>: to activate and check your license.</li>
+<li><b>Access to all sites (optional)</b>: you grant it yourself from the settings page. It lets CBlocker show its own block screen instead of the browser&rsquo;s error page and close tabs that were already open on a blocked site. CBlocker does not use it to read or change what pages contain.</li>
+</ul>
+
+<h2>The waitlist</h2>
+<p>If you write to us to join the waitlist, we receive your email address in our contact inbox and use it only to tell you about the launch. Ask us to delete it at any time.</p>
+
+<h2>Not medical advice</h2>
+<p>CBlocker is a commitment tool, not a medical or psychological treatment.</p>
+
+<h2>Open source notice</h2>
+<p>The adult-site list is derived from the StevenBlack/hosts project, used under the MIT license (the notice ships inside the extension).</p>
+
+<h2>Changes and contact</h2>
+<p>If this policy changes in a significant way, we will update the date above and say so on our website. Questions, or requests to delete your information: <a href="mailto:cblocker.contact@gmail.com">cblocker.contact@gmail.com</a>.</p>
+</main>
+</body>
+</html>
